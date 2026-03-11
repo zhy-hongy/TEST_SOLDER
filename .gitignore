@@ -1,0 +1,106 @@
+# KEIL 生成文件
+*.uvguix.*
+*.uvguix
+*.uvopt
+*.scvd
+*.dep
+*.crf
+*.d
+*.o
+*.axf
+*.htm
+*.lnp
+*.lst
+*.map
+*.iex
+*.sct
+*.build_log.htm
+*.tra
+*.crf
+*.bak
+
+# KEIL 临时文件
+*.uvproj.*.bak
+*.uvprojx.*.bak
+*.uvoptx.*.bak
+*.uvguix.*.bak
+*.uvmpw.*.bak
+
+# 调试和下载文件
+*.hex
+*.bin
+*.elf
+*.build
+*.jlink
+*.launch
+*.flash
+
+# 编译输出目录
+RTE/
+Objects/
+Listings/
+Output/
+DebugConfig/
+Debug/
+Release/
+
+# IDE 配置文件
+*.project
+*.cproject
+*.settings/
+*.mxproject
+.vscode/
+
+# 编译器生成文件
+*.crf
+*.d
+*.o
+*.axf
+*.htm
+*.lnp
+*.lst
+*.map
+*.iex
+*.sct
+# 版本控制系统文件
+*.gitattributes
+*.gitmodules
+*.svn/
+*.txt
+*.srec
+*.csv
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+logs/
+
+# 环境配置文件
+.env
+.env.local
+
+# 个人配置文件
+*.user
+*.settings
+*.pref
+*.cfg
+
+# 不要忽略这些重要文件
+!*.uvprojx        # KEIL 项目文件
+!*.uvproj         # 旧版 KEIL 项目文件
+!*.c              # C 源代码
+!*.h              # 头文件
+!*.s              # 汇编文件
+!*.txt            # 文本文件
+!*.md             # 文档文件
+!*.ld             # 链接脚本
+!*.sct            # 分散加载文件（如果需要模板）
+*.xlsx
+.vscode/c_cpp_properties.json
