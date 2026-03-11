@@ -1,5 +1,5 @@
 #include "solder.h"
-#include "solder_error.h"
+
 extern volatile key_ntf_t key_ntf_cmd;
 static uint32_t systemtime_last_calibration = 0; // 上一次校准模式完成时间
 static uint32_t systemtime_last_set_key = 0;	 // 校验模式步进时间间隔控制
